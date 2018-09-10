@@ -55,20 +55,14 @@ public class AnotacaoBean {
     }
 
     public String excluir() {
-    	
-        try {
-        	this.anotacoes = anoServ.excluir(anotacao);
-           
-        } catch (Exception e) {
-            FacesContext context = FacesContext.getCurrentInstance();
-            context.addMessage(null, new FacesMessage(FacesMessage.SEVERITY_ERROR, e.getMessage(), e.getMessage()));
-            context.getExternalContext().getFlash().setKeepMessages(true);
-        }
+ 
+        this.anotacoes = anoServ.excluir(anotacao);
+
         return "home";
     }
 
     public void selecionar() {
-        anoServ.excluir(anotacao);
+        anoServ.selecionar(anotacao);
 
     }
 

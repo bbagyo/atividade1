@@ -64,7 +64,9 @@ public class AnotacaoService {
 
 	            anotacoes = anotacaoDao.listarTodos();
 
-	           
+	            FacesContext context = FacesContext.getCurrentInstance();
+	            context.addMessage(null, new FacesMessage("anotação excluida com sucesso!"));
+	            context.getExternalContext().getFlash().setKeepMessages(true);	           
 	        } catch (Exception e) {
 	            FacesContext context = FacesContext.getCurrentInstance();
 	            context.addMessage(null, new FacesMessage(FacesMessage.SEVERITY_ERROR, e.getMessage(), e.getMessage()));
