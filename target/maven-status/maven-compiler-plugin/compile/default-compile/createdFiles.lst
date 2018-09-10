@@ -1,0 +1,5 @@
+br\com\devmedia\java\jsf\lembrete\web\model\Lembrete.class
+br\com\devmedia\java\jsf\lembrete\web\dao\LembreteDao.class
+br\com\devmedia\java\jsf\lembrete\web\bean\LembreteBean.class
+br\com\devmedia\java\jsf\lembrete\web\bean\JpaResourceBean.class
+br\com\devmedia\java\jsf\lembrete\web\model\Prioridade.class

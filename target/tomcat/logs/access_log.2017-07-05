@@ -1,0 +1,13 @@
+127.0.0.1 - - [05/Jul/2017:15:53:14 -0300] "GET /lembrete/adicionar.xhtml HTTP/1.1" 200 1417 http-bio-9090-exec-1 5654
+127.0.0.1 - - [05/Jul/2017:15:53:55 -0300] "POST /lembrete/adicionar.xhtml HTTP/1.1" 302 - http-bio-9090-exec-3 252
+127.0.0.1 - - [05/Jul/2017:15:53:55 -0300] "GET /lembrete/index.xhtml HTTP/1.1" 200 978 http-bio-9090-exec-4 103
+127.0.0.1 - - [04/Jul/2017:15:54:14 -0300] "GET /lembrete/adicionar.xhtml HTTP/1.1" 200 1418 http-bio-9090-exec-5 17
+127.0.0.1 - - [04/Jul/2017:15:54:29 -0300] "POST /lembrete/adicionar.xhtml HTTP/1.1" 302 - http-bio-9090-exec-6 234
+127.0.0.1 - - [04/Jul/2017:15:54:29 -0300] "GET /lembrete/index.xhtml HTTP/1.1" 200 1277 http-bio-9090-exec-7 20
+127.0.0.1 - - [04/Jul/2017:15:54:35 -0300] "GET /lembrete/editar.xhtml?lembrete=1 HTTP/1.1" 200 2014 http-bio-9090-exec-8 90
+127.0.0.1 - - [04/Jul/2017:15:54:49 -0300] "POST /lembrete/editar.xhtml HTTP/1.1" 302 - http-bio-9090-exec-9 220
+127.0.0.1 - - [04/Jul/2017:15:54:49 -0300] "GET /lembrete/index.xhtml HTTP/1.1" 200 1274 http-bio-9090-exec-10 13
+0:0:0:0:0:0:0:1 - - [05/Jul/2017:09:56:58 -0300] "GET /lembrete HTTP/1.1" 302 - http-bio-9090-exec-1 0
+0:0:0:0:0:0:0:1 - - [05/Jul/2017:09:57:04 -0300] "GET /lembrete/ HTTP/1.1" 200 929 http-bio-9090-exec-3 5245
+0:0:0:0:0:0:0:1 - - [05/Jul/2017:09:57:04 -0300] "GET /favicon.ico HTTP/1.1" 404 - http-bio-9090-exec-4 0
+0:0:0:0:0:0:0:1 - - [05/Jul/2017:09:57:12 -0300] "GET /lembrete/editar.xhtml?lembrete=1 HTTP/1.1" 200 2018 http-bio-9090-exec-5 350
