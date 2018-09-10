@@ -11,7 +11,7 @@
             <default-locale>pt_BR</default-locale>
             <supported-locale>pt_BR</supported-locale>
         </locale-config>
-        <message-bundle>br.com.devmedia.java.jsf.lembrete.web.i18n.Messages</message-bundle>
+        <message-bundle>br.com.atividade1.web.i18n.Messages</message-bundle>
     </application>
 
     <navigation-rule>
